@@ -38,6 +38,16 @@ Endpoints:
 --> GET /api/users — Returns list of all users.
 --> POST /api/users/login — Accepts JSON body with username and password; returns user data if authenticated.
 
+Project Structure Summary:
+--------------------------
+
+Backend:
+---------
+--> model — User and Login data models
+--> repository — Reads user data from text file
+--> service — Business logic for user management
+--> controller — REST API endpoints
+
 Notes:
 -------
 --> User data is read from a static text file.
